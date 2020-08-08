@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+}
+body{
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 7v;
+    background-color: rgba(0, 0, 0, 0.89);
+    opacity: 0.6;
+    overflow: hidden;
+}
+.logo{
+    color: #fff;
+}
+nav ul{
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 8px;
+    transition: .5s;
+}
+nav ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 5px;
+}
+/* nav ul li a:hover{
+    color:#fff;
+    border: 1px solid ;
+} */
+header{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    animation: animate 100s ease-in-out infinite;
+    background-size: cover;
+    overflow: hidden;
+}
+.darkOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: #0000006c;
+    position: absolute;
+    left: 0;
+}
+.details{
+    width: 100%;
+    margin-left: 45%;
+    line-height: 1;
+    height: 100%;
+    padding-top: 100px;
+}
+.name{
+    font-size: 2.4rem;
+    color: rgba(12, 206, 12, 0.911);
+    font-family: nova Square;
+    padding-bottom: 40px;
+}
+.title{
+    font-size: 7.2rem;
+    color: rgba(255, 255, 255, 0.938);
+    font-family: aladin; 
+    line-height: .8;
+    font-weight: bold;
+}
+.subTitle{
+    font-size: 16px;
+    color: rgba(236, 254, 255, 0.603);
+    font-family: nova Square;
+    margin-top:2px;
+}
+.sign{
+    font-size: 42px;
+    font-family: Great Vibes;
+    margin-top: 12px;
+    color: rgba(22, 9, 70, 0.616);
+    font-weight: bolder;
+}
+
+.contactBtn{
+    font-size: 16px;
+    color: #fff;
+    font-family: nova square;
+    padding: 5px 20px;
+    transition: .5s;
+    background-color: #0000000a;
+    border: 1px solid;
+}
+.contactBtn:hover{
+    border: 0;
+    background-color: rgb(4, 180, 19);
+    box-shadow: 3px 3px 8px 8px rgb(4, 180, 19);
+}
+.me{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+
+
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(4.jpg);
+        background-position: center;
+    }
+    10%{
+        background-image: url(6.jpg);
+        background-position: center;
+    }
+    20%{
+        background-image: url(4.jpg);
+        background-position: center;
+    }
+    30%{
+        background-image: url(7.jpg);
+        background-position: center;
+    }
+    40%{
+        background-image: url(8.jpg);
+        background-position: center;
+    }
+    50%{
+        background-image: url(3.jpg);
+        background-position: center;
+    }
+    60%{
+        background-image: url(2.jpg);
+        background-position: center;
+    }
+    70%{
+        background-image: url(1.jpg);
+        background-position: center;
+    }
+    80%{
+        background-image: url(3.jpg);
+        background-position: center;
+    }
+}
+#sec2{
+    width: 100%;
+    height: 100vh;
+    background-color: dodgerblue;
+}
