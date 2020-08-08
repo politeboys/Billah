@@ -19,19 +19,66 @@
     html{
         font-size: 50%;
     }
+    header{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 85vh;
+        animation: animate 100s ease-in-out infinite;
+        background-size: cover;
+        overflow: hidden;
+    }
     .details{
         width: 100%;
-        margin-left: 15%;
         line-height: 1;
         height: 100%;
-        padding-top: 200px;
+        padding-top: 40vh;
         z-index:2;
         position: absolute;
+        margin-left: 30px;
     }
     .me{
-        width: 250px;
+        width: 350px;
         position: absolute;
         bottom: 0;
-        left: 10px;
+        left: -130px;
+    }
+    .name{
+        font-size: 2.4rem;
+        color: rgba(12, 206, 12, 0.911);
+        font-family: 'Nova Square', cursive;;
+        padding-bottom: 20px;
+        padding-left: 100px;
+    }
+    .title{
+        font-size: 7.2rem;
+        color: rgba(255, 255, 255, 0.938);
+        font-family: 'Aladin', cursive;; 
+        line-height: .8;
+        font-weight: bold;
+    }
+    .subTitle{
+        font-size: 16px;
+        color: rgba(236, 254, 255, 0.603);
+        font-family: 'Nova Square', cursive;;
+        margin-top:2px;
+    }
+    .sign{
+        font-size: 42px;
+        font-family: Great Vibes;
+        margin-top: 12px;
+        color: rgba(22, 9, 70, 0.616);
+        font-weight: bolder;
+    }
+    
+    .contactBtn{
+        font-size: 16px;
+        color: #fff;
+        font-family: 'Nova Square', cursive;;
+        padding: 5px 20px;
+        transition: .5s;
+        background-color: #0000000a;
+        border: 1px solid;
     }
 }
