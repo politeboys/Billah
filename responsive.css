@@ -29,6 +29,9 @@
         background-size: cover;
         overflow: hidden;
     }
+    nav{
+        display: none;
+    }
     .details{
         width: 100%;
         line-height: 1;
