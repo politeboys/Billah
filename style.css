@@ -50,6 +50,7 @@ header{
     animation: animate 150s ease-in-out infinite;
     background-size: cover;
     overflow: hidden;
+    background-color: linear-gradient(#00d31c,#da0214);
 }
 .darkOverlay{
     width: 100%;
