@@ -33,6 +33,10 @@
         background-size: cover;
         overflow: hidden;
     }
+    .details{
+        margin-left: 5%;
+        padding-top: 30vh;
+    }
     .me{
         width: 300px;
         position: absolute;
