@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html{
-    font-size: 62%;
-    scroll-behavior: smooth;
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+}
+body{
+    font-family: sans-serif;
 }
 
 /* START HEADER SECTION */
@@ -29,16 +33,16 @@ header{
 }
 .details{
     width: 100%;
-    margin-left: 45%;
+    margin-left: 60rem;
     line-height: 1;
     height: 100%;
-    padding-top: 170px;
+    padding-top: 17rem;
 }
 .name{
     font-size: 2.4rem;
     color: rgba(12, 206, 12, 0.911);
     font-family: 'Nova Square', cursive;;
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
 }
 .title{
     font-size: 7.2rem;
@@ -48,38 +52,38 @@ header{
     font-weight: bold;
 }
 .subTitle{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: rgba(236, 254, 255, 0.603);
     font-family: 'Nova Square', cursive;;
     margin-top:2px;
 
 }
 .sign{
-    font-size: 42px;
+    font-size: 4.2rem;
     font-family: Great Vibes;
-    margin-top: 12px;
+    padding-top: 1.2rem;
     color: rgba(22, 9, 70, 0.616);
     font-weight: bolder;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
 }
 
 .contactBtn{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
     font-family: 'Nova Square', cursive;;
-    padding: 5px 20px;
+    padding: .5rem 2rem;
     transition: .5s;
     background-color: #0000000a;
-    border: 1px solid #999;
+    border: .1rem solid #999;
 }
 .contactBtn:hover{
     background-color: rgba(41, 44, 41, 0.431);
 }
 .me{
-    width: 300px;
+    width: 30rem;
     position: absolute;
     bottom: 0;
-    left: 100px;
+    left: 10rem;
 }
 /* END HEADER SECTION */
 
