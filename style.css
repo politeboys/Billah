@@ -116,27 +116,27 @@ header{
 
 @keyframes animate{
     0%{
-        background-image: url(images/1.jpg);
-        background-position: center;
+        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/08/Behind-The-Waterfall-Beautiful-scenery-waterfalls-rivers-forests-Wallpaper-For-PC-Tablet-And-Mobile-Download-260x1600-915x515.jpg);
+        background-position:bottom;
     }
     10%{
-        background-image: url(images/1.jpg);
-        background-position: center;
+        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/08/Behind-The-Waterfall-Beautiful-scenery-waterfalls-rivers-forests-Wallpaper-For-PC-Tablet-And-Mobile-Download-260x1600-915x515.jpg);
+        background-position: top center;
     }
     20%{
-        background-image: url(images/1.jpg);
-        background-position: center;
+        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2017/07/Panther-Creek-Falls-Washington-summer-landscape-photography-for-Children-1920x1200-915x515.jpg);
+        background-position:top center;
     }
     30%{
+        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/11/Grand-Falls-in-Coconino-of-the-Little-Colorado-River-County-Arizona-USA-Wallpaper-HD-for-Desktop-1920x1080-915x515.jpg);
+        background-position: center right;
+    }
+    40%{
         background-image: url(images/3.jpg);
         background-position: center;
     }
-    40%{
-        background-image: url(images/12.jpg);
-        background-position: center;
-    }
     50%{
-        background-image: url(images/5.jpg);
+        background-image: url(images/12.jpg);
         background-position: center;
     }
     60%{
