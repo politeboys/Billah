@@ -15,6 +15,8 @@
         left: 10px;
     }
 }
+
+
 @media (max-width:556px){
     html{
         font-size: 50%;
@@ -30,27 +32,6 @@
         animation: animate 100s ease-in-out infinite;
         background-size: cover;
         overflow: hidden;
-    }
-    nav ul{
-        display: none;
-    }
-    .mobile-menu span{
-        display: inline-block;
-        margin-top: 0px;
-        padding: 0px;
-    }
-    nav{
-        margin-top: 0px;
-        padding: 10px 30px;
-    }
-    .details{
-        width: 100%;
-        line-height: 1;
-        height: 100%;
-        padding-top: 30vh;
-        z-index:2;
-        position: absolute;
-        margin-left: 30px;
     }
     .me{
         width: 300px;

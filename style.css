@@ -7,107 +7,23 @@ html{
     font-size: 62%;
     scroll-behavior: smooth;
 }
-body{
 
-}
-
-
-
-nav{
-    background-color: rgba(0, 0, 0, 0.445);
-    overflow: hidden;
-    padding: 0px 150px;
-    transition: 1s;
-    z-index: 9;
-    position: absolute;
-    width: 100%;
-    margin-top: 10px;
-}
-.logo{
-    color: #fff;
-    display: inline-block;
-    padding: 8px 0;
-    float: left;
-}
-nav ul{
-    float: right;
-
-}
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    transition: .5s;
-    padding: 8px 0px;
-}
-nav ul li:hover{
-    background-color: rgba(3, 2, 56, 0.76);
-}
-nav ul li a{
-    font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 20px;
-}
-/* STICKY NAVIGATION MENUE */
-.sticky{
-    position: fixed;
-    width: 100%;
-    transition: ease-in-out;
-    margin-top: 0px;
-}
-/* MOBILE MENU */
-.mobile-menu span{
-    display: none;
-    font-size: 3.2rem;
-    color: #fff;
-    float: right;
-}
-
-.overlay{
-    width: 0%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.863);
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: .5s;
-}
-.overlay-content{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    top: 50px;
-    padding: 0px 50px;
-}
-.overlay-content a{
-    color: #fff;
-    font-size: 3rem;
-    display:block;
-    padding: 5px 20px;
-    text-decoration: none;
-    transition: .5s;
-}
-.overlay-content a:hover{
-    background-color: rgba(0, 0, 0, 0.781);
-}
-
+/* START HEADER SECTION */
 header{
     position: relative;
     top:0;
     left: 0;
     width: 100%;
     height: 85vh;
-    background-color: linear-gradient(#00d31c,#da0214);
-    background-image: url(images/1.jpg);
     animation: animate 150s ease-in-out infinite;
     background-size: cover;
     overflow: hidden;
 }
+
 .darkOverlay{
     width: 100%;
     height: 100%;
-    background-color: #0000006c;
+    background-color: #0000007e;
     position: absolute;
     left: 0;
 }
@@ -116,7 +32,7 @@ header{
     margin-left: 45%;
     line-height: 1;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .name{
     font-size: 2.4rem;
@@ -136,6 +52,7 @@ header{
     color: rgba(236, 254, 255, 0.603);
     font-family: 'Nova Square', cursive;;
     margin-top:2px;
+
 }
 .sign{
     font-size: 42px;
@@ -143,6 +60,7 @@ header{
     margin-top: 12px;
     color: rgba(22, 9, 70, 0.616);
     font-weight: bolder;
+    padding-bottom: 15px;
 }
 
 .contactBtn{
@@ -152,11 +70,10 @@ header{
     padding: 5px 20px;
     transition: .5s;
     background-color: #0000000a;
-    border: 1px solid;
+    border: 1px solid #999;
 }
 .contactBtn:hover{
-    border: 0;
-    background-color: rgba(4, 180, 19, 0.74);
+    background-color: rgba(41, 44, 41, 0.431);
 }
 .me{
     width: 300px;
@@ -164,12 +81,37 @@ header{
     bottom: 0;
     left: 100px;
 }
+/* END HEADER SECTION */
+
+
+/* START ABOUT SECTION */
+#about{
+    width: 100%;
+    height: 80vh;
+    background-color: cornflowerblue;
+}
+/* END ABOUT SECTION */
+
+
+/* START SKILL SECTION */
+#skill{
+    width: 100%;
+    height: 80vh;
+    background-color: deeppink;
+}
+/* END SKILL SECTION */
+
+
+
+
+
+
 
 
 
 
 @keyframes animate{
-    0%,100%{
+    0%{
         background-image: url(images/1.jpg);
         background-position: center;
     }
@@ -186,7 +128,7 @@ header{
         background-position: center;
     }
     40%{
-        background-image: url(images/4.jpg);
+        background-image: url(images/12.jpg);
         background-position: center;
     }
     50%{
@@ -209,14 +151,8 @@ header{
         background-image: url(images/10.jpg);
         background-position: center;
     }
-}
-#sec2{
-    width: 100%;
-    height: 100vh;
-    background-color: dodgerblue;
-}
-#sec3{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 30, 135);
+    100%{
+        background-image: url(images/1.jpg);
+        background-position: center;
+    }
 }
