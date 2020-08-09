@@ -75,15 +75,16 @@ nav ul li a{
 
 
 /* MOBILE MENU */
-.mobile-menu span{
-    display: none;
+.mobile-menu .hbm{
     font-size: 3.2rem;
     color: #fff;
     float: right;
+    text-decoration: none;
 }
 .closeBtn{
     color: #fff;
     font-size: 5rem;
+    font-weight: bold;
     text-decoration: none;
     float: right;
     padding-top: 5px;
