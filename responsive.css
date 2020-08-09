@@ -37,7 +37,7 @@
         padding-top: 35vh;
     }
     .me{
-        width: 30rem;
+        width: 300px;
         position: absolute;
         bottom: 0;
         left: -11rem;
@@ -57,7 +57,7 @@
         margin-top: 1.2rem;
     }
     .contactBtn{
-        font-size: 1.6rem;
+        font-size: 2rem;
         padding: .5rem 2rem;
         transition: .5s;
     }
