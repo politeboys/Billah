@@ -88,12 +88,12 @@
             background-position: center;
         }
         40%{
-            background-image: url(https://images.unsplash.com/photo-1579437444761-3b485e750013?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+            background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/05/Waterfalls-Plitvice-Lakes-National-Park-in-Croatia-wooden-bridge-green-vegetation-gallery-of-pictures-HD-Wallpaper-for-Desktop-2560x1600-1024x655.jpg);
             background-position: right;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-            background-position: right left;
+            background-position: center left;
         }
         60%{
             background-image: url(https://images.pexels.com/photos/2308885/pexels-photo-2308885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
