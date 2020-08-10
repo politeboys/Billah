@@ -37,9 +37,9 @@ window.addEventListener('scroll', function(){
     name.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
     
     const title = document.querySelector('.title');
-    title.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
+    title.style.transform = 'translateX(' + scrollPosition * +.2 + 'px)' ;
 
     const subTitle = document.querySelector('.subTitle');
-    subTitle.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
+    subTitle.style.transform = 'translateX(' + scrollPosition * +.1 + 'px)' ;
 
 }) 
