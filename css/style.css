@@ -37,7 +37,7 @@ body{
     margin-left: 60rem;
     line-height: 1;
     height: 100%;
-    padding-top: 17rem;
+    padding-top: 25vh;
 }
 .name{
     font-size: 2.4rem;
@@ -116,18 +116,17 @@ body{
 
 
 @keyframes animate{
-    /* nature */
     0%{
         background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
-        /* background-position: center; */
+        background-position: center;
     }
     10%{
         background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
-        /* background-position: bottom; */
+        background-position: bottom;
     }
     20%{
         background-image: url(https://www.tapeciarnia.pl/tapety/normalne/tapeta-park-narodowy-jezior-plitwickich.jpg);
-        /* background-position:bottom; */
+        background-position:bottom;
     }
     30%{
         background-image: url(https://external-preview.redd.it/8JIjlY9SMiNLPON5y5HDFFu8NB2rRIXggvxPrbI_z-8.jpg?auto=webp&s=b089ae7049c1740a3d3c0544625d99471de8dece);

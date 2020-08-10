@@ -17,23 +17,29 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%"
 }
 
-// PARALUX EFFECT
-const paralux = document.getElementById('me');
+// PARALUX background EFFECT
+// const paralux2 = document.getElementById('me');
 
-window.addEventListener('scroll', function(){
-    let scrollPosition = window.pageYOffset;
+// window.addEventListener('scroll', function(){
+//     let scrollPosition = window.pageYOffset;
 
-    paralux.style.backgroundPositionY = scrollPosition * 0.7 + 'px' ;
+//     paralux2.style.backgroundPositionY = scrollPosition * 0.7 + 'px' ;
 
     
-    // const me = document.querySelector('.me');
-    // me.style.transform = 'translateX(' + scrollPosition * -.1 + 'px)' ;
-})
+// PARALLUX EFFECT
+window.addEventListener('scroll', function(){		
+    let scrollPosition = window.pageYOffset;
 
-// JQUERY PARALUX EFFECT
-// $(window).scroll(function(){
-//     var scroll_Position = $(window).scrollTop()/2;
-//     $('header').css({
-//         'background-position-y' : - scroll_Position + 'px',
-//     })
-// })
+    const me = document.querySelector('.me');	    
+    me.style.transform = 'translateX(' + scrollPosition * -.1 + 'px)';
+
+    const name = document.querySelector('.name');
+    name.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
+    
+    const title = document.querySelector('.title');
+    title.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
+
+    const subTitle = document.querySelector('.subTitle');
+    subTitle.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
+
+}) 
