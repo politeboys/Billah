@@ -19,7 +19,7 @@ header{
     left: 0;
     width: 100%;
     height: 85vh;
-    animation: animate 150s ease-in-out infinite;
+    animation: animate 200s ease-in-out infinite;
     background-size: cover;
     overflow: hidden;
 }
@@ -74,7 +74,7 @@ header{
     padding: .5rem 2rem;
     transition: .5s;
     background-color: #0000000a;
-    border: .1rem solid #999;
+    border: .1rem solid #fff thin;
 }
 .contactBtn:hover{
     background-color: rgba(41, 44, 41, 0.431);
@@ -115,48 +115,49 @@ header{
 
 
 @keyframes animate{
+    /* nature */
     0%{
-        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/08/Behind-The-Waterfall-Beautiful-scenery-waterfalls-rivers-forests-Wallpaper-For-PC-Tablet-And-Mobile-Download-260x1600-915x515.jpg);
-        background-position:bottom;
+        background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
+        background-position: center;
     }
     10%{
-        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/08/Behind-The-Waterfall-Beautiful-scenery-waterfalls-rivers-forests-Wallpaper-For-PC-Tablet-And-Mobile-Download-260x1600-915x515.jpg);
-        background-position: top center;
+        background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
+        background-position: bottom;
     }
     20%{
-        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2017/07/Panther-Creek-Falls-Washington-summer-landscape-photography-for-Children-1920x1200-915x515.jpg);
-        background-position:top center;
+        background-image: url(https://www.tapeciarnia.pl/tapety/normalne/tapeta-park-narodowy-jezior-plitwickich.jpg);
+        background-position:bottom;
     }
     30%{
-        background-image: url(https://www.wallpapers13.com/wp-content/uploads/2016/11/Grand-Falls-in-Coconino-of-the-Little-Colorado-River-County-Arizona-USA-Wallpaper-HD-for-Desktop-1920x1080-915x515.jpg);
+        background-image: url(https://external-preview.redd.it/8JIjlY9SMiNLPON5y5HDFFu8NB2rRIXggvxPrbI_z-8.jpg?auto=webp&s=b089ae7049c1740a3d3c0544625d99471de8dece);
         background-position: center right;
     }
     40%{
-        background-image: url(images/3.jpg);
+        background-image: url(https://wallup.net/wp-content/uploads/2019/09/125737-waterfall-jungle-mountain.jpg);
         background-position: center;
     }
     50%{
-        background-image: url(images/12.jpg);
-        background-position: center;
+        background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-position: left bottom;
     }
     60%{
-        background-image: url(images/6.jpg);
+        background-image: url(https://images.pexels.com/photos/2308885/pexels-photo-2308885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
         background-position: center;
     }
     70%{
-        background-image: url(images/7.jpg);
-        background-position: center;
+        background-image: url(https://d.newsweek.com/en/full/1591054/colosseum.jpg?w=1600&h=900&q=88&f=9b56379cb19e975e61d772baa1fc10e7);
+        background-position: bottom;
     }
     80%{
-        background-image: url(images/8.jpg);
+        background-image: url(https://cutewallpaper.org/21/seven-wonder-of-the-world-pictures/A-colossal-statue-of-Jesus-Christ-on-top-of-Mount-Corcovado-in-Rio-de-Janeiro.CreditCreditAndy-CaulfieldGetty-Images.jpg);
         background-position: center;
-    }
+    } 
     90%{
-        background-image: url(images/10.jpg);
+        background-image: url(https://nypost.com/wp-content/uploads/sites/2/2018/08/great-wall-china-airbnb-sweepstakes-scrapped.jpg?quality=80&strip=all);
         background-position: center;
     }
     100%{
-        background-image: url(images/1.jpg);
+        background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
         background-position: center;
     }
 }
