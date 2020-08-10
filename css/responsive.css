@@ -71,15 +71,15 @@
         /* nature */
         0%{
             background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
-            background-position: center;
+            background-position: left;
         }
         10%{
             background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
-            background-position: left;
+            background-position: center;
         }
         20%{
-            background-image: url(https://www.tapeciarnia.pl/tapety/normalne/tapeta-park-narodowy-jezior-plitwickich.jpg);
-            background-position: right;
+            background-image: url(https://images.pexels.com/photos/2896668/pexels-photo-2896668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            background-position: left;
         }
         30%{
             background-image: url(https://external-preview.redd.it/8JIjlY9SMiNLPON5y5HDFFu8NB2rRIXggvxPrbI_z-8.jpg?auto=webp&s=b089ae7049c1740a3d3c0544625d99471de8dece);
@@ -87,7 +87,7 @@
         }
         40%{
             background-image: url(https://wallup.net/wp-content/uploads/2019/09/125737-waterfall-jungle-mountain.jpg);
-            background-position: left center;
+            background-position: right;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
