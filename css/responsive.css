@@ -1,26 +1,11 @@
-/* @media (max-width:768px){
-    .details{
-        width: 100%;
-        margin-left: 35%;
-        line-height: 1;
-        height: 100%;
-        padding-top: 1rem;
-        z-index:2;
-        position: absolute;
-        overflow: hidden;
-    }
-    .me{
-        width: 350rem;
-        position: absolute;
-        bottom: 0;
-        left: 10px;
-    }
-} */
 
 
 @media (max-width:76.8rem){
     html{
-        font-size: 50%;
+        font-size: 55%;
+    }
+    .mobile{
+        display: none;
     }
     #me{
         position: relative;
@@ -50,10 +35,6 @@
     }
     .title{
         font-size: 7.2rem;
-        color: rgba(255, 255, 255, 0.938);
-        font-family: 'Aladin', cursive;; 
-        line-height: .8;
-        font-weight: bold;
     }
     .sign{
         margin-top: 1.2rem;
@@ -66,6 +47,30 @@
 
 
 
+
+    @media (max-width:55.6rem){
+        html{
+            font-size: 50%;
+        }
+    }
+
+
+
+
+    @media (max-width:48rem){
+        html{
+            font-size: 47%;
+        }
+    }
+
+
+
+
+    @media (max-width:38rem){
+        html{
+            font-size: 45%;
+        }
+    }
 
 
 
@@ -85,11 +90,11 @@
         }
         30%{
             background-image: url(https://external-preview.redd.it/8JIjlY9SMiNLPON5y5HDFFu8NB2rRIXggvxPrbI_z-8.jpg?auto=webp&s=b089ae7049c1740a3d3c0544625d99471de8dece);
-            background-position: center;
+            background-position: left right;
         }
         40%{
-            background-image: url(https://www.wallpapers13.com/wp-content/uploads/2018/05/Waterfalls-Plitvice-Lakes-National-Park-in-Croatia-wooden-bridge-green-vegetation-gallery-of-pictures-HD-Wallpaper-for-Desktop-2560x1600-1024x655.jpg);
-            background-position: right;
+            background-image: url(https://images6.alphacoders.com/923/923690.jpg);
+            background-position: center;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);

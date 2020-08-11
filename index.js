@@ -9,6 +9,8 @@ $(".sec2").waypoint(function(direction){
     }
 })
 
+
+
 // HAMBERGAR MENU
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
@@ -16,6 +18,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%"
 }
+
+
 
 // PARALUX background EFFECT
 // const paralux2 = document.getElementById('me');
@@ -26,20 +30,19 @@ function closeNav() {
 //     paralux2.style.backgroundPositionY = scrollPosition * 0.7 + 'px' ;
 
     
+
 // PARALLUX EFFECT
 window.addEventListener('scroll', function(){		
     let scrollPosition = window.pageYOffset;
 
-    const me = document.querySelector('.me');	    
-    me.style.transform = 'translateX(' + scrollPosition * -.1 + 'px)';
+    function me(num1, operator){
+        const me = document.querySelector(num1);	    
+        me.style.transform = 'translateX(' + scrollPosition * operator + 'px)';
+    }
 
-    const name = document.querySelector('.name');
-    name.style.transform = 'translateX(' + scrollPosition * +.3 + 'px)' ;
-    
-    const title = document.querySelector('.title');
-    title.style.transform = 'translateX(' + scrollPosition * +.2 + 'px)' ;
+    me('.me', '-.1');
+    me('.name', '+.3');
+    me('.title', '+.2');
+    me('.subTitle', '+.1');
 
-    const subTitle = document.querySelector('.subTitle');
-    subTitle.style.transform = 'translateX(' + scrollPosition * +.1 + 'px)' ;
-
-}) 
+})
