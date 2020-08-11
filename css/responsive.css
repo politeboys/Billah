@@ -2,7 +2,7 @@
 
 @media (max-width:76.8rem){
     html{
-        font-size: 55%;
+        font-size: 57%;
     }
     .mobile{
         display: none;
@@ -24,7 +24,7 @@
         position: absolute;
     }
     .me{
-        width: 35rem;
+        width: 37rem;
         position: absolute;
         bottom: 0;
         left: -11rem;
@@ -50,7 +50,10 @@
 
     @media (max-width:55.6rem){
         html{
-            font-size: 50%;
+            font-size: 52%;
+        }
+        .me{
+            width: 3.5rem;
         }
     }
 
@@ -60,6 +63,9 @@
     @media (max-width:48rem){
         html{
             font-size: 47%;
+        }
+        .me{
+            width: 3.2rem;
         }
     }
 
