@@ -113,7 +113,19 @@
             font-size: 50%;
         }
         .me{
-            width: 36rem;
+            width: 37rem;
+        }
+    }
+
+
+
+
+    @media only screen and (max-width: 480px){
+        html{
+            font-size: 50%;
+        }
+        .me{
+            width: 35rem;
         }
     }
 
