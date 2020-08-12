@@ -16,6 +16,10 @@
         background-size: cover;
         overflow: hidden;
     }
+    #me::before{
+        display: block;
+        border: none;
+    }
     .details{
         margin-left: 5%;
         padding-top: 32vh;
@@ -45,7 +49,48 @@
         font-size: 2rem;
         padding: .5rem 2rem;
         transition: .5s;
+        display: none;
     }
+
+
+    /* ABOUT SECTION */
+    #about::before{
+        display: block;
+    }
+    .messageBtn{
+        /* display: block; */
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: -95px;
+        z-index: 30;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+    .messageBtn li{
+        list-style-type: none;
+    }
+    .messageBtn li a img{
+        text-decoration: none;
+        border-radius: 50%;
+        padding: px;
+        margin-top: 3rem;
+        border: none;
+        width: 80px;
+        height: 80px;
+        background-color: rgb(40, 230, 255);
+        padding: 5px;
+        border: 5px solid #fff;
+    }
+
+
+    /* SKILL SECTION */
+    #skill::before{
+        display: block;
+    }
+
 
 /* 
 
