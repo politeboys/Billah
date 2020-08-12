@@ -96,7 +96,7 @@
         display: block;
     }
 
-}
+
 
     /* @media only screen and (max-width: 556px){
         html{
@@ -184,7 +184,7 @@
             background-position: center;
         }
         70%{
-            background-image: url(https://d.newsweek.com/en/full/1591054/colosseum.jpg?w=1600&h=900&q=88&f=9b56379cb19e975e61d772baa1fc10e7);
+            background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAI3C0c.img?h=630&w=1200&m=6&q=60&o=t&l=f&f=jpg);
             background-position: left;
         }
         80%{
@@ -200,3 +200,4 @@
             background-position: center;
         }
     }
+}

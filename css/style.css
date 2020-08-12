@@ -235,15 +235,15 @@ body{
     }
     20%{
         background-image: url(https://images6.alphacoders.com/923/923690.jpg);
-        background-position:bottom;
+        background-position:center;
     }
     30%{
         background-image: url(https://external-preview.redd.it/8JIjlY9SMiNLPON5y5HDFFu8NB2rRIXggvxPrbI_z-8.jpg?auto=webp&s=b089ae7049c1740a3d3c0544625d99471de8dece);
-        background-position: center right;
+        background-position: top center;
     }
     40%{
-        background-image: url(https://wallup.net/wp-content/uploads/2019/09/125737-waterfall-jungle-mountain.jpg);
-        background-position: center;
+        background-image: url(https://images7.alphacoders.com/899/thumb-1920-899775.jpg);
+        background-position: bottom top;
     }
     50%{
         background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
@@ -251,19 +251,19 @@ body{
     }
     60%{
         background-image: url(https://images.pexels.com/photos/2308885/pexels-photo-2308885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-        background-position: center;
+        background-position:center;
     }
     70%{
-        background-image: url(https://d.newsweek.com/en/full/1591054/colosseum.jpg?w=1600&h=900&q=88&f=9b56379cb19e975e61d772baa1fc10e7);
+        background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAI3C0c.img?h=630&w=1200&m=6&q=60&o=t&l=f&f=jpg);
         background-position: bottom;
     }
     80%{
         background-image: url(https://cutewallpaper.org/21/seven-wonder-of-the-world-pictures/A-colossal-statue-of-Jesus-Christ-on-top-of-Mount-Corcovado-in-Rio-de-Janeiro.CreditCreditAndy-CaulfieldGetty-Images.jpg);
-        background-position: center;
+        background-position: center bottom;
     } 
     90%{
         background-image: url(https://nypost.com/wp-content/uploads/sites/2/2018/08/great-wall-china-airbnb-sweepstakes-scrapped.jpg?quality=80&strip=all);
-        background-position: center;
+        background-position: center top;
     }
     100%{
         background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
