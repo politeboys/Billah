@@ -15,8 +15,9 @@
         background-size: cover;
         overflow: hidden;
         border: none;
-        background-image: url(https://p16-va-default.akamaized.net/obj/tos-maliva-p-0068/31dd7e458bd584a7e1ce978673292ea2);
+        background-image: url(../images/s.jpg);
         background-size: cover;
+        background-position: center;
     }
     #me::before{
         display: block;
