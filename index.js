@@ -46,3 +46,16 @@ window.addEventListener('scroll', function(){
     me('.subTitle', '+.1');
 
 })
+
+// RELAX.JS
+// data-lax-translate-y="0 0, 400 -400" class"lax"
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
