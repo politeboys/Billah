@@ -12,42 +12,42 @@
 <body>
 
   <!-- START HEADER SECTION -->
-    <header id="me">
-      <div class="darkOverlay">
-          <nav>
-            <div class="logo">
-              <img src="images/logo.png">
-            </div>
-            <ul>
-              <li><a href="index.html">HoME</a></li>
-              <li><a href="#about">ABoUT</a></li>
-              <li><a href="#skill">SKill</a></li>
-              <li><a href="">PoRTFOLIO</a></li>
-              <li><a href="">CoNTACT</a></li>
-            </ul>
-    
-            <div class="mobile-menu">
-              <a class="hbm" href="javascript:void()" onclick="openNav()">&#9776</a>
-              <div id="myNav" class="overlay">
-                <a href="javascript:void()" onclick="closeNav()" class="closeBtn">&times;</a>
-                <div class="overlay-content">
-                  <div class="overlay-logo">
-                    <img src="images/logo.png">
-                  </div>
-                  <a onclick="closeNav()" href="index.html">HoME</a>
-                  <a onclick="closeNav()" href="#about">ABoUT</a>
-                  <a onclick="closeNav()" href="#skill">SKill</a>
-                  <a onclick="closeNav()" href="#portfolio">PoRTFOLIO</a>
-                  <a onclick="closeNav()" href="#contact">CoNTACT</a>
+    <header id="header"data-lax-translate-y="0 0, 400 +100" class="lax">
+      <div class="mainContainer">
+        <nav>
+          <div class="logo">
+            <img src="images/logo.png">
+          </div>
+          <ul>
+            <li><a href="index.html">HoME</a></li>
+            <li><a href="#about">ABoUT</a></li>
+            <li><a href="#skill">SKill</a></li>
+            <li><a href="">PoRTFOLIO</a></li>
+            <li><a href="">CoNTACT</a></li>
+          </ul>
+  
+          <div class="mobile-menu">
+            <a class="hbm" href="javascript:void()" onclick="openNav()">&#9776</a>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void()" onclick="closeNav()" class="closeBtn">&times;</a>
+              <div class="overlay-content">
+                <div class="overlay-logo">
+                  <img src="images/logo.png">
                 </div>
-                  <div class="overlay-div">
-                    <h2>Bangladesh</h2>
-                  </div>
+                <a onclick="closeNav()" href="index.html">HoME</a>
+                <a onclick="closeNav()" href="#about">ABoUT</a>
+                <a onclick="closeNav()" href="#skill">SKill</a>
+                <a onclick="closeNav()" href="#portfolio">PoRTFOLIO</a>
+                <a onclick="closeNav()" href="#contact">CoNTACT</a>
               </div>
+                <div class="overlay-div">
+                  <h2>Bangladesh</h2>
+                </div>
             </div>
-          </nav>
-    
-            <div class="container">
+          </div>
+        </nav>
+
+        <div class="container">
                 <div class="details">
                     <h2 class="name">Hi! I am mukim billah</h2>
                     <h2 class="title">I build and design <br> website</h2>
@@ -55,8 +55,8 @@
                     <h2 class="sign">Billah</h2>
                     <button class="contactBtn">connect me</button>
                 </div>
-            </div>
           <img class="me" src="me.png">
+      </div>
       </div>
     </header>
   <!-- END HEADER SECTION -->
@@ -65,10 +65,10 @@
 
   <!-- START ABOUT SECTION -->
     <section id="about" class="sec2 py-5 lax">
-      <div class="messageBtn">
-        <ul><li><a href="#"> <img src="git.png" alt=""></a></li></ul>
-      </div>
         <div class="container">
+          <div class="messageBtn" >
+            <ul><li><a href="#"> <img class="lax" data-lax-rotate="0 0, 400 5000" src="git.png" alt=""></a></li></ul>
+          </div>
           <h2 class="naimTitle text-center pb-5 lax">Little Discription</h2>
           <div class="row">
             <div class="col-md-6">
@@ -97,6 +97,15 @@
     <section id="skill" class="skill py-5">
       <div class="container">
         <h2 class="naimTitle text-center">Gathared Skills</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+            </svg>
+          </div>
+        </div>
       </div>
     
     </section>
@@ -107,7 +116,7 @@
 
 
 <!-- START PARALUX SECTION -->
-    <section id="paralux">
+    <section id="paralux" class="py-5">
       <div class="container">
         <h2 class="naimTitle text-center">PARALUL SECTION</h2>
       </div>
@@ -122,12 +131,24 @@
 
 
   <!-- START SKILL SECTION -->
-  <section id="portfolio" class="portfolio">
+  <section id="portfolio" class="portfolio py-5">
     <div class="container">
       <h2 class="naimTitle text-center">My Portfolio</h2>
     </div>
   </section>
   <!-- END SKILL SECTION -->
+
+
+
+
+
+   <!-- START CONTACT SECTION -->
+   <section id="contact" class="contact py-5">
+    <div class="container">
+      <h2 class="naimTitle text-center">Contact me</h2>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
 
 
 
@@ -145,6 +166,13 @@
 
 <!-- RELAX.JS -->
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script>
     <!-- BOOTSTRAP -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

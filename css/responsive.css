@@ -6,23 +6,16 @@
     .mobile{
         display: none;
     }
-    #me{
+    #header{
         position: relative;
-        top:0;
-        left: 0;
-        width: 100%;
         height: 75vh;
         background-size: cover;
-        overflow: hidden;
+        overflow: hidde;
         border: none;
         background-image: url(https://p16-va-default.akamaized.net/obj/tos-maliva-p-0068/31dd7e458bd584a7e1ce978673292ea2);
         background-size: cover;
     }
-    #me::before{
-        display: block;
-        border: none;
-    }
-    .darkOverlay{
+    #header .container{
         animation: animate 150s ease-in-out infinite;
     }
     .details{
@@ -59,19 +52,23 @@
 
 
     /* ABOUT SECTION */
-    #about::before{
-        display: block;
+    #about{
+        transform: skew(0deg, 8deg);
+        z-index: 2;
+        position: relative;
+        margin-top: -30px;
+    }
+    #about .container{
+        transform: skew(0deg, -8deg);
+        padding-top: 3rem;
+        padding-bottom: 2rem;
     }
     .messageBtn{
-        /* display: block; */
         position: absolute;
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        margin-top: -90px;
-        z-index: 2;
-        align-items: center;
-        justify-content: center;
+        margin-top: -63px;
         display: grid;
     }
     .messageBtn li{
@@ -80,12 +77,9 @@
     .messageBtn li a img{
         text-decoration: none;
         border-radius: 50%;
-        padding: px;
-        margin-top: 3rem;
-        border: none;
         width: 70px;
         height: 70px;
-        background-color: rgba(236, 255, 255, 0.897);
+        background-color: rgba(226, 226, 226, 0.712);
         padding: 5px;
         border: 5px solid rgb(255, 255, 255);
         transition: .2s;
@@ -96,9 +90,60 @@
 
 
     /* SKILL SECTION */
-    #skill::before{
-        display: block;
+    #skill{
+        transform: skew(0deg, 8deg);
+        z-index: 1;
     }
+    #skill .container{
+        transform: skew(0deg, -8deg);
+    }
+
+
+
+
+    /* SKILL SECTION */
+    #paralux{
+        transform: skew(0deg, 8deg);
+        z-index: 1;
+    }
+    #paralux .container{
+        transform: skew(0deg, -8deg);
+        background-image: url(../images/12.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: right bottom;
+    }
+
+
+
+
+
+    /* PORTFOLIO SECTION */
+    #portfolio{
+        transform: skew(0deg, 8deg);
+        z-index: 1;
+    }
+    #portfolio .container{
+        transform: skew(0deg, -8deg);
+    }
+
+
+
+
+       /* CONTACT SECTION */
+    #contact{
+        transform: skew(0deg, 8deg);
+        padding-bottom: 50px;
+        z-index: 1;
+    }
+    #contact .container{
+        transform: skew(0deg, -8deg);
+    }
+
+
+
+
 
 
 
@@ -177,7 +222,7 @@
         }
         40%{
             background-image: url(https://images6.alphacoders.com/923/923690.jpg);
-            background-position: center;
+            background-position: bottom center;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
