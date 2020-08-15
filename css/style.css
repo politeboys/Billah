@@ -8,6 +8,9 @@
 html{
     font-size: 62.5%;
     text-rendering: optimizeLegibility;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #060c21;
 }
 body{
     font-family: sans-serif;
@@ -28,7 +31,7 @@ body{
     background-image: url(https://static.wixstatic.com/media/8d317d_7fd1a23ad6884291b844dc13c66f1601~mv2.jpg/v1/fit/w_2500,h_1330,al_c/8d317d_7fd1a23ad6884291b844dc13c66f1601~mv2.jpg);
     background-size: cover;
     overflow: hidden;
-   
+   max-height: 600px;
 }
 #header .mainContainer{
     width: 100%;
@@ -99,7 +102,7 @@ body{
 /* START ABOUT SECTION */
 #about{
     width: 100%;
-    background-color: rgb(220, 231, 255);
+    background-color: rgb(243, 245, 250);
     position: relative;
     margin-top: -30p;
 }
@@ -120,7 +123,8 @@ body{
 /* START SKILL SECTION */
 #skill{
     width: 100%;
-    background-color: rgb(245, 255, 251);
+    background: linear-gradient(rgba(255, 255, 255, 0.897),rgba(255, 255, 255, 0.883)), url(../images/1.jpg) center;
+    background-size: cover;
     position: relative;
 }
 #skill .container{
@@ -190,7 +194,7 @@ svg.radial-progress {
 /* START PORTFOLIO SECTION */
 #portfolio{
     height: 70vh;
-    background-color: rgb(220, 231, 255);
+    background-color: rgb(255, 255, 255);
 }
 /* END PORTFOLIO SECTION */
 

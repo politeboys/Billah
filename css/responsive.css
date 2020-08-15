@@ -57,6 +57,7 @@
         z-index: 1;
         position: relative;
         margin-top: -30px;
+        border: 5px solid rgba(0, 255, 221, 0.418);
     }
     #about .naimTitle{
         text-shadow: 2px 2px 3px rgb(65, 60, 60);
@@ -96,12 +97,11 @@
     #skill{
         transform: skew(0deg, 8deg);
         z-index: 1;
-        ;
+        background: linear-gradient(rgba(243, 243, 243, 0.897),rgba(255, 255, 255, 0.883));
+        border: 5px solid rgba(51, 255, 78, 0.431);
     }
     #skill .naimTitle{
-        margin-top: -30px;
         text-shadow: 1px 1px 3px rgb(65, 60, 60);
-        z-index: 3;
     }
     #skill .container{
         transform: skew(0deg, -8deg);
@@ -143,9 +143,13 @@
     #portfolio{
         transform: skew(0deg, 8deg);
         z-index: 1;
+        border: 5px solid rgba(255, 69, 224, 0.589);
     }
     #portfolio .container{
         transform: skew(0deg, -8deg);
+    }
+    #portfolio .naimTitle{
+        text-shadow: 1px 1px 3px rgb(65, 60, 60);
     }
 
 
