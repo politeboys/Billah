@@ -64,7 +64,7 @@
         z-index: 1;
         position: relative;
         margin-top: -30px;
-        border: 5px solid #3c67ff9b;
+        border: 5px solid #0037ff7e;
         border-top: 5px solid #fff;
     }
     #about .naimTitle{
@@ -151,7 +151,7 @@
     #portfolio{
         transform: skew(0deg, 8deg);
         z-index: 1;
-        border: 5px solid rgba(51, 255, 78, 0.431);
+        border: 5px solid rgba(51, 255, 78, 0.541);
     }
     #portfolio .container{
         transform: skew(0deg, -8deg);

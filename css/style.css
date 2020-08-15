@@ -40,6 +40,11 @@ body{
     animation: animate 150s ease-in-out infinite;
     background-size: cover;
 }
+.darkOverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.335);
+}
 .details{
     line-height: 1;
     position: absolute;
