@@ -54,9 +54,12 @@
     /* ABOUT SECTION */
     #about{
         transform: skew(0deg, 8deg);
-        z-index: 2;
+        z-index: 1;
         position: relative;
         margin-top: -30px;
+    }
+    #about .naimTitle{
+        text-shadow: 2px 2px 3px rgb(65, 60, 60);
     }
     #about .container{
         transform: skew(0deg, -8deg);
@@ -93,18 +96,20 @@
     #skill{
         transform: skew(0deg, 8deg);
         z-index: 1;
+        ;
     }
     #skill .naimTitle{
-        text-shadow: 2px 2px 3px rgb(65, 60, 60);
+        margin-top: -30px;
+        text-shadow: 1px 1px 3px rgb(65, 60, 60);
+        z-index: 3;
     }
     #skill .container{
         transform: skew(0deg, -8deg);
     }
     #skill .col-md-3{
-        border: 1px solid rgba(51, 51, 51, 0.212);
-        box-shadow: 1px 1px 8px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
         margin: 5px 20px;
-        padding: 20px;
+        padding: 5px;
     }
     #skill .col-md-3:hover{
         box-shadow: none;
