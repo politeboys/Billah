@@ -31,7 +31,8 @@ body{
     background-image: url(https://static.wixstatic.com/media/8d317d_7fd1a23ad6884291b844dc13c66f1601~mv2.jpg/v1/fit/w_2500,h_1330,al_c/8d317d_7fd1a23ad6884291b844dc13c66f1601~mv2.jpg);
     background-size: cover;
     overflow: hidden;
-   max-height: 600px;
+    max-height: 600px;
+    border-bottom: 5px solid rgb(255, 230, 91);
 }
 #header .mainContainer{
     width: 100%;
@@ -107,9 +108,11 @@ body{
 /* START ABOUT SECTION */
 #about{
     width: 100%;
-    background-color: rgb(243, 245, 250);
+    background: linear-gradient(rgba(255, 255, 255, 0.897),rgba(255, 255, 255, 0.883)), url(../images/bg4.jpg) center;
+    background-size: cover;
     position: relative;
     margin-top: -30p;
+    border-bottom: 5px solid rgb(255, 230, 91);
 }
 .messageBtn{
     display: none;
@@ -128,9 +131,10 @@ body{
 /* START SKILL SECTION */
 #skill{
     width: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.897),rgba(255, 255, 255, 0.883)), url(../images/1.jpg) center;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(../images/bg10.jpg) center;
     background-size: cover;
     position: relative;
+    border-bottom: 5px solid rgb(255, 230, 91);
 }
 #skill .container{
     padding-top: 3rem;
@@ -151,7 +155,7 @@ svg.radial-progress {
     width: 100%;
   }
   svg.radial-progress text{
-      font-family: atomic
+      font-family: atomic age;
   }
   
   svg.radial-progress circle {
@@ -199,9 +203,10 @@ svg.radial-progress {
 /* START PORTFOLIO SECTION */
 #portfolio{
     height: 70v;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(#e8e9fde7,rgba(215, 251, 218, 0.911)), url(../images/bg9.jpg) center;
+    background-size: cover;
     position: relative;
-    border: 5px solid;
+    border-bottom: 5px solid rgb(255, 230, 91);
 }
 #portfolio .naimTitle{
     margin-bottom: 6rem;
@@ -259,10 +264,33 @@ svg.radial-progress {
 
 /* START PORTFOLIO SECTION */
 #contact{
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.438);
-    z-index: -1;
-    position: relative;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(5, 0, 0, 0.8)), url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+}
+#contact .naimTitle{
+    color: #fff;
+    margin-bottom: 5rem;
+}
+#contact .form-control{
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.726);
+    font-size: 1.8rem;
+    color: #fff;
+    font-family: aladin;
+}
+#contact .btn{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: ;
+    color: #fff;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    padding: 1rem 4rem;
+    border: 1px solid;
 }
 /* END PORTFOLIO SECTION */
 

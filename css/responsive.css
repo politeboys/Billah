@@ -64,8 +64,10 @@
         z-index: 1;
         position: relative;
         margin-top: -30px;
-        border: 5px solid #0037ff7e;
+        border: 5px solid #446dff73;
         border-top: 5px solid #fff;
+        background-position: center;
+        background-size: cover;
     }
     #about .naimTitle{
         text-shadow: 2px 2px 3px rgb(65, 60, 60);
@@ -105,7 +107,7 @@
     #skill{
         transform: skew(0deg, 8deg);
         z-index: 1;
-        background: linear-gradient(rgba(243, 243, 243, 0.897),rgba(255, 255, 255, 0.883));
+        background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.9)), url(../images/bg10.jpg) center;
         border: 5px solid rgba(0, 255, 221, 0.418);
     }
     #skill .naimTitle{
@@ -193,17 +195,18 @@
 }
 .portfolio2{
     position: absolute;
-    top: 32rem;
+    top: 29rem;
+    left: 2rem;
 }
 .portfolio3{
     position: absolute;
-    bottom: 32rem;
+    top: 64rem;
     left: 2rem;
 }
 .portfolio4{
     position: absolute;
     bottom: 0rem;
-    right: 3.5rem;
+    left: 2rem;;
 }
 
 
@@ -211,12 +214,18 @@
 
        /* CONTACT SECTION */
     #contact{
-        transform: skew(0deg, 8deg);
+        transform: skew(0deg, 8de);
         padding-bottom: 50px;
         z-index: 1;
+        margin-top: -50px;
+        border: 5px solid #000000;
+    }
+    #contact .naimTitle{
+        text-shadow: 2px 2px 3px rgb(158, 157, 157);
     }
     #contact .container{
-        transform: skew(0deg, -8deg);
+        transform: skew(0deg, -8de);
+        margin: 10rem 0;
     }
 
 
