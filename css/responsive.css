@@ -64,7 +64,7 @@
         z-index: 1;
         position: relative;
         margin-top: -30px;
-        border: 5px solid #446dff73;
+        border: 5px solid #298dffca;
         border-top: 5px solid #fff;
         background-position: center;
         background-size: cover;
@@ -98,11 +98,6 @@
         border: 5px solid rgb(255, 255, 255);
         transition: .2s;
     }
-    .messageBtn li a img:hover{
-        transform: rotate(360deg) scale(1.1);
-    }
-
-
     /* SKILL SECTION */
     #skill{
         transform: skew(0deg, 8deg);
