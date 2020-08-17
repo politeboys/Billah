@@ -222,7 +222,24 @@
         transform: skew(0deg, -8de);
         margin: 10rem 0;
     }
-
+    /* SOCIAL MENUE */
+    .sIDV{
+        display: none;
+    }
+    .overlay-div{
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+    .social-Icon .fab, .fas, .far{
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        color: rgb(0, 155, 245);
+        font-size: 4rem;
+        width: 14vw;
+        text-align: center;
+        padding: 2rem;
+    }
 
 
 
@@ -303,8 +320,8 @@
             background-position: left right;
         }
         40%{
-            background-image: url(https://content.thriveglobal.com/wp-content/uploads/2019/05/GettyImages-933712046.jpg?w=1550);
-            background-position: bottom center;
+            background-image: url(https://images6.alphacoders.com/923/923690.jpg);
+            background-position: center bottom;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);

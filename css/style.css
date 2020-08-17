@@ -14,6 +14,7 @@ html{
 }
 body{
     font-family: sans-serif;
+    position: relative;
 }
 .naimTitle{
     font-size: 4.2rem;
@@ -293,6 +294,35 @@ svg.radial-progress {
 /* END PORTFOLIO SECTION */
 
 
+
+
+/* SOCIAL ICON */
+.sIDV .social-Icon{
+    position: fixed;
+    top: 50vh;
+    transform: translatey(-50%);
+    z-index: 1;
+    left: 1rem;
+}
+.social-Icon .fab, .fas, .far{
+    background-color: rgba(255, 255, 255, 0.644);
+    font-size: 3rem;
+    width: 5rem;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+    display: block;
+    border-top: .1rem solid rgba(206, 200, 200, 0.575);
+    transition: .5s;
+    color: rgba(49, 53, 54, 0.219);
+}
+.social-Icon .fab:hover,
+.social-Icon  .fas:hover,
+.social-Icon .far:hover{
+    transform: scale(1.2);
+    background-color: #fff;
+    color: rgb(0, 155, 245);
+}
 
 
 
