@@ -321,7 +321,7 @@
         }
         40%{
             background-image: url(https://images6.alphacoders.com/923/923690.jpg);
-            background-position: center bottom;
+            background-position: center right;
         }
         50%{
             background-image: url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
@@ -345,7 +345,7 @@
         }
         100%{
             background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/04/42814/leaf-29.jpg);
-            background-position: center;
+            background-position: center left;
         }
     }
 }
