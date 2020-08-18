@@ -304,6 +304,9 @@ svg.radial-progress {
     z-index: 1;
     left: 1rem;
 }
+.sIDV .social-Icon a{
+    text-decoration: none;
+}
 .social-Icon .fab, .fas, .far{
     background-color: rgba(255, 255, 255, 0.644);
     font-size: 3rem;
